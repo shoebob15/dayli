@@ -1,13 +1,17 @@
 # shoe
 # Function File Imports
 from functions import *
-
 # Module Imports
 import sys
 import os
 from colorama import init, Fore, Back, Style
+from configparser import ConfigParser
+import glob
 
 init()  # initialize colorama
+file = 'config.ini'
+config = ConfigParser()
+config.read(file)
 
 
 def home():
@@ -41,9 +45,10 @@ def home():
         print("Welcome to Dayli!\n")
         print("Please choose an option -->")
         print("1. Make an entry")
-        print("2. Review previous entries")
+        print("2. Review previous 10 entries")
         print("3. Unencrypt a previous entry")
         print("4. What is Dayli?")
+        print("5. Settings")
         print("\n0. Quit")
         choice = input(" >>  ")
         exec_menu(choice)
@@ -51,7 +56,7 @@ def home():
         return
 
     def exec_menu(choice):
-        os.system('cls')
+        clear()
         ch = choice.lower()
         if ch == '':
             menu_actions['main_menu']()
@@ -72,7 +77,7 @@ def home():
 
     # Menu 2
     def menu2():
-        print("Sorry, still in development! Release TBD")
+        print(" ")
         time.sleep(3)
         main_menu()
 
@@ -86,6 +91,9 @@ def home():
 
     def menu4():
         menu_what_is_dayli()
+
+    def menu5():
+
 
     # Back to main menu
     def back():
@@ -106,6 +114,7 @@ def home():
         '2': menu2,
         '3': menu3,
         '4': menu4,
+        '5': menu5,
         '9': back,
         '0': exit_menu
     }
