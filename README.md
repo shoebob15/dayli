@@ -4,7 +4,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/B-Man2019/dayli?display_name=tag&include_prereleases&logo=github&style=flat-square)
 # Dayli
 
-Dayli is a secure and private entry maker. It includes many features, such as:
+Dayli is a secure and private computerized diary. It includes many features, such as:
 * Symmetric encryption
 * Settings
 * More coming soon
