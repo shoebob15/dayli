@@ -11,15 +11,14 @@ Dayli is a secure and private computerized diary. It includes many features, suc
 
 
 ## Installation
+Option 1:
+Download latest setup.exe from releases page
 
-Install my-project with npm
+Option 2:
+Download latest setup.py from releases page (Several modules needed, please refer to installations.txt [TBD])
 
-```bash
-  git clone B-Man2019/dayli
-  cd dayli
-  python3 -m pip install -r requirements.txt (TBD)
-```
-    
+Option 3:
+Run from source (Not recommended)
 ## Authors
 
 - [@B-Man2019](https://www.github.com/B-Man2019)
