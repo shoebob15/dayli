@@ -2,3 +2,4 @@ env/
 encryptKeys/
 __pycache__/
 entries/
+.idea/
