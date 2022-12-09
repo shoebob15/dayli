@@ -2,7 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/B-Man2019/dayli?style=flat-square)
 ![GitHub all releases](https://img.shields.io/github/downloads/B-Man2019/dayli/total?logo=github&style=flat-square)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/B-Man2019/dayli?display_name=tag&include_prereleases&logo=github&style=flat-square)
-<p>&nbsp;</p>
+
 ![Dayli Logo](https://user-images.githubusercontent.com/55066087/206613336-9488765e-7c04-47c1-ac31-b3cd2f0d573f.png)
 
 
